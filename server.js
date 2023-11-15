@@ -7,7 +7,7 @@ const app = express();
 mongoose.connect(mongodb+srv://byumvuhorelucien:byumv2008@cluster0.8p6bbyo.mongodb.net/?retryWrites=true&w=majority, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-});
+);
 // Models
 // Models
 const { Citizen, Title } = require('./models'); // Update the require statement
